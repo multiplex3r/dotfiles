@@ -7,7 +7,7 @@ fun! tmuxline#presets#powerline#get()
   call bar.right.add_right_sep()
   call bar.right.add('y', '%Y-%m-%d')
   call bar.right.add_right_alt_sep()
-  call bar.right.add('y', '%H:%M')
+  call bar.right.add('y', '%H:%M:%S')
   call bar.right.add_right_sep()
 
   call bar.right.add('z', 'multiplex3r@#h')
