@@ -67,7 +67,7 @@ set encoding=utf-8
 set t_Co=256
 set term=xterm-256color
 set termencoding=utf-8
-" syntax on
+syntax enable
 set mouse=a
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 
@@ -120,3 +120,5 @@ augroup numbertoggle
   autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
 let g:airline_powerline_fonts = 1
+set showmatch
+let python_highlight_all = 1
