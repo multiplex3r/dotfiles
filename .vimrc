@@ -18,7 +18,7 @@ set splitbelow
 set nocompatible
 
 " copy paste using system clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " enable code folding because wtfbbq
 set foldmethod=indent
