@@ -4,8 +4,7 @@ fun! tmuxline#presets#powerline#get()
   call bar.left.add('a', '#S')
   call bar.left.add_left_sep()
 
-  call bar.right.add_right_sep()
-  call bar.right.add('y', '%Y-%m-%d')
+  call bar.right.add('y', ' %Y-%m-%d')
   call bar.right.add_right_alt_sep()
   call bar.right.add('y', '%H:%M:%S')
   call bar.right.add_right_sep()
@@ -20,7 +19,7 @@ fun! tmuxline#presets#powerline#get()
   call bar.cwin.add('cwin.dim', '#I')
   call bar.cwin.add_left_alt_sep()
   call bar.cwin.add('cwin', '#W')
-  call bar.cwin.add_left_sep()
+  call bar.cwin.add_left_alt_sep()
 
   let bar.options['status-justify'] = 'left'
   let bar.win_options['window-status-activity-attr'] = 'none'
