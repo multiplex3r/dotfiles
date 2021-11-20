@@ -35,9 +35,9 @@ let g:airline#themes#dark_minimal#palette = {}
 " to the dictionary.  The array is in the format:
 " [ guifg, guibg, ctermfg, ctermbg, opts ]. See "help attr-list" for valid
 " values for the "opt" value.
-let s:N1   = [ '#00ff00' , '#00ff00' , 0  , 10 ]
-let s:N2   = [ '#ffffff' , '#444444' , 10 , 0 ]
-let s:N3   = [ '#9cffd3' , '#202020' , 10  , 234 ]
+let s:N1   = [ '#00ff00' , '#00ff00' , 0  , 46 ]
+let s:N2   = [ '#ffffff' , '#444444' , 46 , 0 ]
+let s:N3   = [ '#9cffd3' , '#202020' , 46  , 234 ]
 let g:airline#themes#dark_minimal#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 " Accents are used to give parts within a section a slightly different look or
@@ -48,7 +48,7 @@ let g:airline#themes#dark_minimal#palette.normal = airline#themes#generate_color
 " will be red instead of the section's foreground color. You can also have
 " multiple parts with accents within a section.
 let g:airline#themes#dark_minimal#palette.accents = {
-      \ 'green': [ '#00ff00' , '' , 10 , ''  ]
+      \ 'green': [ '#00ff00' , '' , 46 , ''  ]
       \ }
 
 let pal = g:airline#themes#dark_minimal#palette
